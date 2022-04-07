@@ -1,0 +1,404 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="shortcut icon" href="./img/favicon.png"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Corn Hub</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+      <div class="container">
+        <div class="hub" type>
+            <span>Corn</span>
+            <span>hub</span>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item" id="navhome">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item" >
+              <a class="nav-link" href="#">Buku Resep</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Jenis - Jenis Jagung</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Tentang Saya</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Kontak Saya</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      </nav>
+    <!-- End Navbar -->
+
+    <!-- Jumbotron -->
+    <div class="jumbotron jumbotron-fluid" id="jumb">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5">
+        <h3>Jagung bakar dan susu rasanya pasti gitu-gitu aja. Tapi dengan siapa menikmatinya adalah hal yang berbeda.
+        </h3>
+        <p class="lead">Binggung bagaimana cara mengolah jagung? Temukan caranya disini</p>
+          </div>
+          <div class="col-lg-3 mr-2">
+            <div class="card" style="width: 18rem;">
+              <img src="./img/jagung1.jpeg" class="card-img-top" alt="...">
+            </div>
+            <div class="card mt-3" style="width: 18rem;">
+              <img src="./img/jagung2.jpeg" class="card-img-top" alt="...">
+            </div>
+          </div>
+          <div class="col-lg-3 ml-2">
+            <div class="card" style="width: 18rem;">
+              <img src="./img/jagung3.jpeg" class="card-img-top" alt="...">
+            </div>
+            <div class="card mt-3" style="width: 18rem;">
+              <img src="./img/jagung4.jpeg" class="card-img-top" alt="...">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Jumbotron -->  
+
+    <!-- Populer -->
+    <section class="pop" >
+      <div class="container">
+        <div class="row m-2">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <h2 id="pop">Pencarian Populer</h2>
+          </div>
+        </div>
+        <div class="row mb-4">
+        <input type="text" id="search-bar" placeholder="Cari Resep . . .">
+        <button class="btn btn-primary"><i class="fa fa-search" aria-hidden="true"></i></button>
+        </div>
+        <div class="row">
+          <div class="a1 card text-white">
+            <img src="./img/pop1.png" class="image card-img" alt="...">
+            <div class="card-img-overlay">
+              <h5 class="card-title">Bakwan Jagung</h5>
+            </div>
+            <div class="oper card-img-overlay">
+              <button class="card-title" data-toggle="modal" data-target=".momod1">Bakwan Jagung</button>
+              <p class="as col-sm-12">- 1 Buah Jagung Manis <br> - 3 Batang Daun Bawang <br> - 100 gr Kubis <br> - 6 Sdm Terigu Serbaguna <br> . . .</p>
+            </div>
+          </div>
+            <div class="momod1 modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-scrollable" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalScrollableTitle">Resep Bakwan Jagung</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <h4>Bahan</h4>
+                    - 1 buah jagung manis <br> - 1 buah wortel <br> - 100 gr kubis <br> - 3 btg daun bawang <br> - 6 sdm munjung terigu serbaguna <br> - 3 sdm tepung beras <br> - 2 sdm tepung siap saji <br> - Secukupnya minyak untuk menggoreng
+                    <hr>
+                    <h4>Bumbu</h4>
+                    - 1 sdt bawang putih bubuk <br> - 1/2 sdt merica bubuk <br> - 1/2 sdt ketumbar bubuk <br> - 1 sdt garam <br> - 1/4 sdt kaldu jamur <br> - Secukupnya air
+                    <hr>
+                    <h4>Langkah</h4>
+                    - Cuci dan bersihkan jagung manis, wortel, kubis dan daun bawang, iris tipis, sisihkan <br><br> - Tambahkan bumbu dan tepung, aduk rata. Masukkan air, aduk rata sampai kental <br><br> - Panaskan minyak dalam wajan hingga siap untuk menggoreng. Masukkan adonan dengan menggunakan sendok sesuai selera <br><br> - Masak hingga matang dan kecoklatan. Angkat, sajikan.
+                  </div>
+                </div>
+              </div>
+            </div>
+          <div class="a1 card text-white ml-2">
+            <div class="card-img-overlay">
+              <h5 class="card-title">Bubur Jagung</h5>
+            </div>
+            <img src="./img/pop2.png" class="image card-img" alt="...">
+            <div class="oper card-img-overlay">
+              <button class="aw card-title" data-toggle="modal" data-target=".momod2">Bubur Jagung</button>
+              <p class="as col-sm-12">- 2 Buah Jagung <br> - 1 Santan Kara 65ml <br> - 1 Keju Kraft Cheddar 70g <br> - 1 Saset Vanili <br> . . .</p>
+            </div>
+          </div>
+          <div class="momod2 modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalScrollableTitle">Bubur Jagung</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <h4>Bahan</h4>
+                  - 2 buah jagung <br> - 1 santan kara 65ml <br> - 1 keju kraft cheddar 70g <br> - 1 saset Vanili <br> - 5 sdm Gula pasir /sesuai selera <br> - 3 sdm Maizena <br> - 1/2 sdt Garam <br> - 2 gelas air
+                  <hr>
+                  <h4>Langkah</h4>
+                  - Tuang 2 gelas air dipanci, pipil 2 jagung pake pisau bagi dua, setengah dbender setengah lagi langsung dimasukin kepanci direbus <br><br> - Setelah diblender masukkan kepanci tambah gula pasir, garam & vanili aduk. <br><br> - Jika jagung dirasa sudah agak matang masukan santan kara & maizena (larutkan maizena dengan 5 sdm air dulu digelas), tuang maizena sedikit demi sedikit sambil diaduk2. <br><br> - Sudah kental matikan api, parut keju kedalam panci dan aduk2. Taraaaaa sajikan
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="a1 card text-white ml-2">
+            <img src="./img/pop3.png" class="image card-img" alt="...">
+            <div class="card-img-overlay">
+              <h5 class="card-title">Puding Jagung</h5>
+            </div>
+            <div class="oper card-img-overlay">
+              <button class="aw card-title" data-toggle="modal" data-target=".momod3">Puding Jagung</button>
+              <p class="as col-sm-12">- 3 Buah Jagung Manis <br> - 1 Santan Kara 65ml <br> - 200ml Susu UHT <br> - 50ml Air Matang <br> . . .</p>
+            </div>
+          </div>
+          <div class="momod3 modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalScrollableTitle">Resep Puding Jagung</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <h4>Bahan</h4>
+                  - 3 bonggol jagung manis (uk kecil) <br> - 65 ml santan (sy pakai kara) <br> - 200 ml susu UHT (uht bs u/ dbwh 1th asal dmasak untuk campuran) <br> - 50 ml air matang <br> - secukupnya keju parut <br> - 2 sdt tepung maizena
+                  <hr>
+                  <h4>Langkah</h4>
+                  - Ulek jagung (lbh bagus diblender, tp apalah daya gk punya blender). disaring masukan ke panci, sisa ampas jgn dibuang, bisa dibikin bakwan jagung bun hehee.. <br><br> - Lalu masukan santan, susu uht, keju parut masak dan aduk". tambahkan air matang. siapkan 2 sdt maizena yg sdh dilarutkan dgn sedikit air, masukan ke panci sambil terus diaduk, masak hingga meletup". <br><br> - Angkat, dinginkan, lalu masukan kedalam kulkas. (dibawah 1 thn skip gula, diatas 1 tahun bs tambahkan 1 sdm gula jika mau). <br><br> - Sisa ampas jagung sy bikin bakwan jagung, tinggal tambahkan tepung serbaguna, air n 1/2 sdm tepung beras. enak banget kriuk" n ttp berasa jagungnya kalo diulek ya.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="a1 card text-white ml-2">
+            <img src="./img/pop4.png" class="image card-img" alt="...">
+            <div class="card-img-overlay">
+              <h5 class="card-title">Jagung Bakar</h5>
+            </div>
+            <div class="oper card-img-overlay">
+              <button class="aw card-title" data-toggle="modal" data-target=".momod4">Jagung Bakar</button>
+              <p class="as col-sm-12">- 2 Buah Jagung <br> - 3 Biji Cabe Rawit <br> - 2 Buah Bawang Putih <br> - Secukupnya Garam <br> . . .</p>
+            </div>
+          </div>
+        </div>
+        <div class="momod4 modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalScrollableTitle">Resep Jagung Bakar</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <h4>Bahan</h4>
+                - 2 buah jagung <br> - 3 biji cabe rawit *opsi <br> - 2 buah bawang putih <br> - secukupnya garam <br> - secukupnya mentega    
+                <hr>
+                <h4>Langkah</h4>
+                - Haluskan bawang putih, cabe rawit dan garam lalu campur rata dengan mentega. <br><br> - Olesi mentega tadi ke jagungnya lalu bakar diatas arang. <br><br> - Sesekali jangan lupa dibolak balik dan angkat jika dirasa sudah matang.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-2">
+          <div class="a1 card text-white">
+            <img src="./img/pop5.png" class="image card-img" alt="...">
+            <div class="card-img-overlay">
+              <h5 class="card-title">Talam Jagung</h5>
+            </div>
+            <div class="oper card-img-overlay">
+              <button class="aw card-title" data-toggle="modal" data-target=".momod5">Talam Jagung</button>
+              <p class="as col-sm-12">- 200g Jagung Pipil <br> - 100g Gula Pasir <br> - 40g Gula Pasir <br> - 40g Tepung Beras <br> . . .</p>
+            </div>
+          </div>
+          <div class="momod5 modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalScrollableTitle">Resep Talam Jagung</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <h4>Bahan Jagung</h4>
+                  - Jagung pipil - 200 gram <br> - Gula pasir - 100 gram <br> - Tepung beras - 40 gram <br> - Tepung tapioka - 35 gram <br> - Telur - 2 butir <br> - Garam - 1/4 sdt <br> - Santan - 150 ml <br> - Cetakan kue talam - secukupnya <br> - Minyak, untuk olesan - secukupnya
+                  <hr>
+                  <h4>Bahan Santan</h4>
+                  - Santan - 250 ml <br> - Tepung terigu - 50 gram <br> - Tepung tapioka - 10 gram <br> - Garam - 1/4 sdt
+                  <hr>
+                  <h4>Langkah</h4>
+                  - Lapisan Santan: Dalam wadah, campur semua bahan lapisan santan. Aduk hingga rata dan tidak bergerindil. Sisihkan. <br><br> - Panaskan panci kukusan/dandang. Olesi cetakan kue talam dengan minyak. <br><br> - Haluskan semua bahan lapisan jagung menggunakan blender. <br><br> - Tuang adonan jagung ke dalam cetakan kue talam hingga ⅔ penuh. Kukus selama 10 menit. <br><br> - Tuang lapisan santan ke atasnya hingga penuh. Taburi dengan pipilan jagung. Lanjutkan mengukus kembali selama 15 menit dengan api sedang. Matikan api dan biarkan dingin <br><br> - Keluarkan kue talam dari cetakan. Siap disajikan.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="a1 card text-white ml-2">
+            <img src="./img/pop6.png" class="image card-img" alt="...">
+            <div class="card-img-overlay">
+              <h5 class="card-title">Bolu Kukus Jagung</h5>
+            </div>
+            <div class="oper card-img-overlay">
+              <button class="aw card-title" data-toggle="modal" data-target=".momod6">Bolu Kukus Jagung</button>
+              <p class="as col-sm-12">- 300g Jagung Manis Pipil <br> - 80ml Skm Putih (2 Saset) <br> - 4 Butir Telur <br> - 120g Gula Pasir <br> . . .</p>
+            </div>
+          </div>
+          <div class="momod6 modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalScrollableTitle">Resep Bolu Kukus Jagung</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <h4>Bahan</h4>
+                  - 300 gram jagung manis pipil <br> - 80 ml skm putih (2 saset) <br> - 4 butir telur <br> - 120 gula pasir <br> - 1 sdt sp <br> - 120 gram terigu <br> - 100 ml minyak goreng
+                  <hr>
+                  <h4>Langkah</h4>
+                  - Cuci bersih jagung kemudian pipil/disisir, blender sampai halus (tanpa air) campur dgn skm putih aduk rata sisihkan dahulu <br><br> - Kocok telur, gula dan sp dgn speed tinggi selama 10-12 menit tergantung mixer masing2 sampai mengembang putih berjejak <br><br> - Kecilkan speed mixer sampai yg paling rendah, masukan terigu bergantian dgn jagung manis. Secara bertahap mixer asal nyampur aja kemudian matikan mixer <br><br> Masukan minyak secara bertahap aduk balik dgn spatula sampai tercampur rata, pastikan tdk ada endapan minyak di dasar wadah <br><br> - Tuang ke loyang 20x20 yg sdh diolesi minyak tipis2 dan dialasi baking paker, hentakan perlahan utk menghilangkan gelembung udara, kukus selama 30 menit dgn api sedang cenderung kecil, seblmnya dandang dipanaskan terlebih dahulu dan tutup dibks dgn serbet bersih, setelah matang angkat <br><br> - Tunggu hangat dan keluarkan dr loyang, dan beri topping sesuai selera, tanpa topping jg enak kok.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="a1 card text-white ml-2">
+            <img src="./img/pop7.png" class="image card-img" alt="...">
+            <div class="card-img-overlay">
+              <h5 class="card-title">Bola Makaroni Jagung</h5>
+            </div>
+            <div class="oper card-img-overlay">
+              <button class="aw card-title" data-toggle="modal" data-target=".momod7">Bola Makaroni Jagung</button>
+              <p class="as col-sm-12">- 1 Buah Jagung Manis <br> - 1/4 Bawang Bombay <br> - 2 Bks Kobe Tepung Bakwan <br> - 100ml Air <br> . . .</p>
+            </div>
+          </div>
+          <div class="momod7 modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalScrollableTitle">Resep Bola Makaroni Jagung</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <h4>Bahan</h4>
+                  - 1/4 buah bawang bombay (cincang halus) <br> - 1 buah jagung manis (pipil, rebus dan blender ½ buah dengan 100 ml susu, ½ lagi sisihkan) <br> - 2 bungkus Kobe Tepung Bakwan Kress (75gr) <br> - 100 ml air <br> - 1/2 sendok teh lada kobe <br> - 1/4 sendok teh pala bubuk <br> - 50 gram wortel (potong kotak kecil, rebus) <br> - 100 gram makaroni siap saji (rebus) <br> - 1 butir telur (kocok lepas) <br> - 30 gram keju cheddar parut <br> - 1 butir telur (kocok lepas) <br> - 1 bungkus KOBE Breadcrumbs (270gr) <br> - secukupnya minyak goreng
+                  <hr>
+                  <h4>Langkah</h4>
+                  - Panaskan 5 sendok makan minyak, tumis bawang bombay sampai harum. <br><br> - Tuang campuran jagung susu, air dan Kobe Tepung Bakwan Kress sambil diaduk-aduk. <br><br> - Masukkan lada kobe dan pala bubuk, aduk rata. <br><br> - Tambahkan wortel rebus dan sisa jagung pipil rebus. <br><br> - Masukkan makaroni dan keju parut, aduk rata. Angkat dan biarkan dingin. <br><br> - Setelah benar-benar dingin, bentuk bola sesuai selera, lakukan sampai adonan habis. <br><br> - Gulingkan ke dalam kocokan telur, gulingkan ke KOBE Breadcrumbs. Diamkan kurang lebih 15 menit. <br><br> - Goreng dalam minyak panas dengan api sedang sampai berwarna kecoklatan dan matang. <br><br> - Bola makaroni jagung siap disajikan
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="a1 card text-white ml-2">
+            <img src="./img/pop8.png" class="image card-img" alt="...">
+            <div class="card-img-overlay">
+              <h5 class="card-title">Nasi Jagung</h5>
+            </div>
+            <div class="oper card-img-overlay">
+              <button class="aw card-title" data-toggle="modal" data-target=".momod8">Nasi Jagung</button>
+              <p class="as col-sm-12">- 2 Buah Jagung <br> - 3 Biji Cabe Rawit <br> - 2 Buah Bawang Putih <br> - Secukupnya Garam <br> . . .</p>
+            </div>
+          </div>
+          <div class="momod8 modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalScrollableTitle">Resep Nasi Jagung</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <h4>Bahan Untuk Nasi Jagung</h4>
+                  - Beras biasa sebanyak 300 gram <br> - Beras jagung sebanyak 100 gram yang telah direndam air terlebih dahulu selama 2 jam <br> - Air bersih sebanyak ½ liter
+                  <hr>
+                  <h4>Bahan Untuk Bakwan Jagung</h4>
+                  - Tepung terigu sebanyak 100 gram <br> - Jagung sebanyak 6 bonggol yang telah diserut kasar <br> - Telur sejumlah 1 butir yang telah dikocok lepas <br> - Udang sejumlah 15 ekor yang telah dikupas kulitnya <br> - Daun bawang sejumlah 2 batang yang telah diiris-iris <br> - Daun seledri sejumlah 4 batang yang telah diiris-iris <br> - Garam sebanyak ½ sendok teh <br> - Gula pasir sebanyak 2 sendok teh <br> - Air bersih sebanyak 150 ml <br> - Minyak sayur sebanyak 350 ml untuk menggoreng bakwan jagung <br> - Kencur sepanjang 2 cm <br> - Cabai merah berukuran besar sejumlah 3 buah <br> - Bawang merah sejumlah 4 siung <br> - Bawang putih sejumlah 4 siung <br> - Daun jeruk sejumlah 2 lembar
+                  <hr>
+                  <h4>Bahan Untuk Sayur Lodeh Tahu Tempe</h4>
+                  - Bawang merah sejumlah 6 siung <br> - Bawang putih sejumlah 4 siung <br> - Kunyit sepanjang 2 cm <br> - Terasi yang telah dibakar sebanyak ½ sendok teh <br> - Kemiri sejumlah 5 buah <br> - Tahu sebanyak 200 gram yang telah dipotong menyerupai dadu <br> - Tempe sebanyak 200 gram yang telah dipotong menyerupai dadu <br> - Cabai rawit utuh sejumlah 10 buah <br> - Lengkuas sepanjang 4 cm yang telah dimemarkan <br> - Udang rebon sebanyak 1 sendok makan <br> - Minyak goreng sebanyak 4 sendok makan <br> - Air bersih sebanyak 150 ml <br> - Santan kental sebanyak 400 ml yang diperoleh dari 300 gram kelapa tua parut <br> - Garam halus sebanyak 1 sendok teh <br> - Gula pasir sebanyak 2 sendok teh <br> - Daun salam sejumlah 3 lembar
+                  <hr>
+                  <h4>Bahan Untuk Sayur Urap</h4>
+                  - Kelapa setengah tua sebanyak ½ butir yang telah diparut memanjang <br> - Daun singkong sebanyak 12 batang yang telah disiangi <br> - Kacang panjang sebanyak 10 batang yang telah dipotong-potong sepanjang 3 cm <br> - Tauge sebanyak 100 gram <br> - Daun pisang secukupnya <br> - Cabai rawit sejumlah 5 buah <br> - Cabai merah berukuran besar sejumlah 4 buah <br> - Bawang putih sejumlah 7 buah <br> - Bawang merah sejumlah 6 buah <br> - Terasi yang telah dibakar sebanyak ½ sendok teh <br> - Kencur sepanjang 1 ruas jari orang dewasa <br> - Daun jeruk sejumlah 3 lembar <br> - Gula pasir sebanyak 1 sendok makan <br> - Garam sebanyak 1 sendok teh
+                  <hr>
+                  <h4>Bahan Untuk Ikan Asin Goreng Tepung</h4>
+                  - Ikan asin bulu ayam sebanyak 100 gram <br> - Kemiri sejumlah 5 buah <br> - Bawang putih sejumlah 5 siung <br> - Ketumbar sebanyak ½ sendok teh <br> - Kunyit sepanjang 3 cm <br> - Tepung beras sebanyak 150 gram <br> - Air bersih sebanyak 100 ml <br> - Gula pasir sebanyak ½ sendok teh <br> - Garam halus sebanyak ¼ sendok teh <br> - Minyak goreng secukupnya
+                  <hr>
+                  <h4>Bahan Untuk Sambal Bajak</h4>
+                  - Cabai merah berukuran besar sejumlah 3 buah <br> - Cabai rawit sebanyak 20 buah <br> - Minyak goreng sebanyak 4 sendok makan <br> - Garam halus sebanyak ¼ sendok teh <br> - Terasi yang telah dibakar sebanyak 1 sendok teh
+                  <hr>
+                  <h4>Langkah</h4>
+                  - Campur dan masak beras biasa, beras jagung, dan air. <br><br> - Jika air telah menyusut habis, lanjut dikukus hingga nasi matang. Proses pengukusan ini membutuhkan waktu kurang lebih 45 menit. <br><br> - Setelah matang, sisihkan terlebih dahulu. <br><br> - Membuat bakwan jagung: haluskan kencur, cabai merah, bawang merah, bawang putih, dan daun jeruk hingga menjadi bumbu halus. <br><br> - Campurkan bumbu halus tersebut dengan tepung terigu dan air. Lalu aduk hingga rata.  <br><br> - Tambahkan jagung, telur, udang, daun bawang, daun seledri, garam, dan gula pasir. Aduk hingga semua bahan rata. <br><br> - Panaskan minyak goreng, lalu masukkan adonan bakwan jagung dengan cara dituang menggunakan sendok sedikit demi sedikit. Goreng hingga matang, lalu angkat dan tiriskan. <br><br> - Membuat sayur lodeh tempe tahu: buat bumbu halus dari campuran bawang merah, bawang putih, kunyit, terasi, kemiri, dan lengkuas. <br><br> - Masak air dengan tambahan garam, gula pasir, dan daun salam. <br><br> - Sementara itu, tumis bumbu halus hingga keluar aroma harum. Lalu tambahkan udang rebon, tahu, dan tempe. Aduk hingga rata, lalu masukkan ke dalam rebusan air. <br><br> - Masukkan cabai rawit, dan lanjutkan memasak hingga airnya mendidih. <br><br> - Tuang santan sembari diaduk-aduk hingga matang sempurna. Lalu matikan api dan sisihkan. <br><br> - Membuat urap: sayuran direbus satu persatu secara bergantian. <br><br> - Daun singkong yang telah direbus, kemudian diremas-remas dan diiris halus. <br><br> - Buat bumbu halus dari campuran cabai rawit, cabai merah, bawang putih, bawang merah, terasi, kencur, daun jeruk, gula pasir, dan garam. Campur bumbu halus tersebut dengan kelapa parut. Lalu bungkus dengan menggunakan daun pisang. Lalu dikukus sekitar 15 menit. <br><br> - Setelah matang, campurkan dengan sayur-sayuran seperti daun singkong, kacang panjang, dan tauge. <br><br> - Membuat ikan asin goreng tepung: buat bumbu halus dari campuran kemiri, bawang putih, ketumbar, kunyit, gula pasir, dan garam. Lalu campur dengan tepung beras dan beri air sedikit demi sedikit sembari diaduk-aduk hingga rata. <br><br> - Masukkan ikan asin satu demi satu, lalu goreng dengan menggunakan minyak goreng yang telah dipanaskan sebelumnya dengan api sedang. <br><br> - Setelah matang dan kering, segera angkat dan tiriskan. <br><br> - Membuat sambal bajak: goreng cabai merah, cabai rawit, dan terasi. Angkat dan tiriskan sebentar, lalu haluskan dengan ditambah garam. <br><br> - Panaskan minyak goreng, lalu masak bumbu yang telah dihaluskan tadi. Aduk hingga rata, tutup, matikan api, dan tunggu selama 2 menit. Lalu hidangkan.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Populer -->
+
+    <!-- Quote -->
+
+    <section class="a5">
+      <div class="container">
+        <div class="ba row d-flex justify-content-center">
+          <div class="uwe col-lg-5 mr-2">
+            <blockquote class="blockquote">
+              <p class="mb-0">❝ Pertanian terlihat perkasa mudah ketika bajak Anda adalah pensil dan kau seribu mil dari ladang jagung. ❞</p>
+              <footer class="blockquote-footer">Dwight D. Eisenhower</footer>
+            </blockquote>
+          </div>
+          <div class="uwe col-lg-5 ml-2">
+            <blockquote class="blockquote">
+              <p class="mb-0">❝ Orang yang dapat menambahkan dua jagung ataupun dua rumput di tempat yang tadinya hanya dapat tumbuh satu sahaja, lebih berjasa pada umat manusia dan negara daripada semua politikus. ❞</p>
+              <footer class="blockquote-footer">Jonathan Swift</footer>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quote -->
+
+    <!-- Find Me -->
+    <section class="find fixed-bottom align-items-center" id="find">
+      <div class="container">
+        <div class="row d-flex justify-content-center">
+          <h5>Find Me On</h5>
+        </div>
+        <div class="row d-flex justify-content-center">
+          <i class="col-lg-1">Discord</i>
+          <i class="col-lg-1">Telegram</i>
+          <i class="col-lg-1">Instagram</i>
+        </div>
+        <div class="row justify-content-center ">
+            <img src="./img/discord.png" alt="..." class="img1 img-thumbnail">
+            <img src="./img/telegram.png" alt="..." class="img1 img-thumbnail">
+            <img src="./img/ig.png" alt="..." class="img1 img-thumbnail">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Find Me -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js" integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J" crossorigin="anonymous"></script>
+  </body>
+</html>

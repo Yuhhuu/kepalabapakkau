@@ -1,0 +1,234 @@
+@font-face {
+  font-family: comics;
+  src: url(../font/ComicNeue-Regular.ttf);
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: comics;
+}
+
+::placeholder{
+  color: black;
+  margin-left: 15px;
+  text-align: center;
+}
+
+/* Navbar */
+.navbar {
+  height: 60px;
+  border-bottom: 1px solid black;
+}
+
+.hub {
+    display: block;
+    font-weight: bold;
+    font-size: 1.2vw;
+    position: relative;
+    margin-top: 5px;
+    left: 4vw;
+    transform: translate(-10%, -10%);
+    outline: none;
+    cursor: default;
+  }
+  
+  .hub span:nth-child(2) {
+    background: #438a5e;
+    color: white;
+    border-radius: 0.3vw;
+    padding: 0 6px 0 6px;
+    display: inline-block;
+    outline: none;
+    cursor: default;
+  }
+
+  .nav-link {
+    color: #438a5e!important;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    margin-top: 5px;
+  }
+
+  .navbar li {
+    padding-right: 25px;
+  }
+
+  .navbar .btn {
+    border-radius: 100px;
+    width: 120px;
+    background: none;
+    color: #438a5e;
+    border-color: #438a5e;
+    border-width: 2px;
+    outline: none;
+  }
+
+  .navbar .btn:hover {
+    background: linear-gradient(237.65deg, #70a72e 5%, #438a5e 95%);
+    color: white;
+  }
+  /* Navbar */
+
+  /* Jumbotron */
+  h3 {
+    font-weight: 900;
+    font-size:35px ;
+    line-height:158.34% ;
+  }
+
+  .jumbotron {
+    background: url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    height: 666px;
+    color: white;
+  }
+
+  .jumbotron .btn {
+      border-radius: 100px;
+      width: 120px;
+      background: none;
+      color: white;
+      border-color: white;
+      border-width: 2px;
+      outline: none;
+  }
+
+  .jumbotron .container {
+    margin-top: 60px;
+  }
+  /* Jumbotron */
+
+  /* Find Me */
+  .find {
+    height: 101px;
+    background: #0a52258c;
+    color: white;
+    position: relative;
+  }
+
+  .find h5 {
+    margin: 0 auto;
+  }
+
+  .img1 {
+    margin: 0px 25px 0px 25px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+  }
+  /* Find Me */
+
+  /* Pop */
+  .pop {
+    height: 606px;
+    background: white;
+  }
+
+  .pop input{
+    margin-left: 95px;
+    margin-right: 20px;
+    width: 70%;
+    height: 40px;
+    padding: 0 5px;
+    font-size: 1rem;
+    border: 2px solid black;
+    border-radius: 50px;
+    color: black;
+    background: none;
+    outline: none;
+  }
+
+  .pop h5 {
+    font-weight: bold;
+  }
+
+  .pop p {
+    font-weight: bold;
+  }
+
+  .pop .btn {
+    border-radius: 100px;
+    width: 120px;
+    background: none;
+    color: black;
+    border-color: black;
+    border-width: 2px;
+    outline: none;
+  }
+
+  .oper .as{
+    padding-left: 8%;
+    color: white;
+    position: relative;
+    top: 5px;
+  }
+
+  .oper button {
+    font-size: 20px;
+    font-weight: bold;
+    background: none;
+    border: none;
+    color: white;
+    size: 20%;
+    position: relative;
+    outline: none;
+    margin: 0 0 0 -6px;
+    top: -4.5px;
+  }
+
+  .oper{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .a1:hover .oper{
+    opacity: 1;
+  }
+
+  .a1 .momod1{
+    color: black;
+  }
+
+  .modal .close{
+    outline: none;
+  }
+  /* Pop */
+
+  /* Quote */
+  
+  .a5{
+    height: 220px;
+  }
+
+  .a5 .uwe:hover{
+    background: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 10px 5px rgb(134, 134, 134);
+    transition: 0.5s;
+  }
+
+  .a5 .uwe{
+    border:none;
+    border-radius: 10px;
+    box-shadow: 5px 10px 5px white;
+    transition: 0.5s;
+  }
+
+  /* Quote */
